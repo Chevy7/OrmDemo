@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "modelLoader.js",
+  "sourceRoot": "",
+  "sources": [
+    "modelLoader.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,MAAM,CAAC,OAAP,GAAiB,SAAC,EAAD,EAAK,EAAL,GAAA;AACf,IAAA,EAAE,CAAC,IAAH,CAAQ,QAAR,EAAkB,SAAC,GAAD,GAAA;AAChB,MAAA,IAAY,GAAZ;eAAA,EAAA,CAAG,GAAH,EAAA;OADgB;IAAA,CAAlB,CAAA,CAAA;WAGA,EAAA,CAAA,EAJe;EAAA,CAAjB,CAAA;AAAA"
+}

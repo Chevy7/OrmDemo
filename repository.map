@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "repository.js",
+  "sourceRoot": "",
+  "sources": [
+    "repository.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,UAAA;;AAAA,EAAM;4BACJ;;AAAA,yBAAA,SAAA,GAAW,SAAC,QAAD,GAAA;aAAc,IAAC,CAAA,QAAD,GAAY,SAA1B;IAAA,CAAX,CAAA;;AAAA,yBACA,GAAA,GAAK,UAAC,CAAA,QADN,CAAA;;sBAAA;;MADF,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "userRepo.js",
+  "sourceRoot": "",
+  "sources": [
+    "userRepo.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA;AAAA"
+}
