@@ -1,10 +1,10 @@
 exports.mysql = {
   database : "test",
   protocol : "mysql",
-  host     : "112.124.100.167",
+  host     : "127.0.0.1",#112.124.100.167
   port     : 3306,         # optional, defaults to database default
   username : "root",
-  password : "123456",
+  password : "",
   query    : {
   pool  :  true,    # optional, false by default
   debug : true    # optional, false by default

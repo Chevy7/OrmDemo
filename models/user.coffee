@@ -12,3 +12,7 @@ module.exports = (db, cb, next) ->
   db.define(userDef.tableName, userDef.schema, next)
 
 
+exports.create = (user ,cb) ->
+  user.add
+
+

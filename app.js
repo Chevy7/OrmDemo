@@ -26,7 +26,6 @@ app.use(orm.express(config.mysql, {
             else
                 console.log(err);
         });
-
         next();
     }
 }));
@@ -49,8 +48,10 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.use(express.bodyParser());
+
 app.get('/', routes.index);
-app.get('/users', user.list);
+app.get('/api/users/create', user.create);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

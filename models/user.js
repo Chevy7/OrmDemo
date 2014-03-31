@@ -17,6 +17,10 @@
     return db.define(userDef.tableName, userDef.schema, next);
   };
 
+  exports.create = function(user, cb) {
+    return user.add;
+  };
+
 }).call(this);
 
 //# sourceMappingURL=user.map

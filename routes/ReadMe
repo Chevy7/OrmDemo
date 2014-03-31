@@ -1,0 +1,10 @@
+定义Express程序路由的Action
+具体业务逻辑由domain实现
+仅定义路由Action服务接口，由Export.[Servive]对外暴露
+具体service实现格式例：
+[ServiceFun] = (req, res) ->
+    1.解析req的请求参数构造servicereq（服务请求契约）
+    2.调用具体domain方法获得回调结果处理为 serviceres（服务响应契约）
+    3.res.send（serviceres） ps:基本已json格式返回，请做好序列化
+
+由Export.[Servive] = [ServiceFun]
