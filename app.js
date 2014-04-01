@@ -15,9 +15,9 @@ var app = express();
 
 //
 app.use(orm.express(config.mysql, {
-    define: function (db, models, next) {
+    define: function (db, models) {
         db.load('./models/modelLoader', function (err) {
-            var user = db.models.user;
+            models.user = db.models.user;
         });
 
         db.sync(function (err) {
@@ -26,7 +26,6 @@ app.use(orm.express(config.mysql, {
             else
                 console.log(err);
         });
-        next();
     }
 }));
 
