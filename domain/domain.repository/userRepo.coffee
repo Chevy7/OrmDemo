@@ -1,8 +1,6 @@
-create = (addModel, model, cb)->
-  model.Create(addModel.toDataModel(), (err, item) ->
-    if(err)
-      cb(err)
-    cb(item);
-  )
+Repository = require '.../repository'
 
-exports.create = create
+class UserRepo extends Repository
+  construct: super(@modelDef)
+
+module.exports = UserRepo

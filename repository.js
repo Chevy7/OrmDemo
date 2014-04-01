@@ -9,11 +9,93 @@
       return this.modelDef = modelDef;
     };
 
-    Repository.prototype.add = Repository.modelDef;
+    Repository.prototype.find = function(conditions, limit, order, callback) {
+      return this.modelDef.find(conditions, limit, order, function(err, models) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, models);
+      });
+    };
+
+    Repository.prototype.findFirstOrDefault = function(conditions, order, callback) {
+      return this.modelDef.find(conditions, 1, order, function(err, model) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, model);
+      });
+    };
+
+    Repository.prototype.findByPaged = function(conditions, order, pageNo, pageSize, callback) {
+      return this.modelDef.find(conditions, order).offset((pageNo - 1) * pageSize).limit(pageSize).run(function(err, pagedModels) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, pagedModels);
+      });
+    };
+
+    Repository.prototype.count = function(conditions, callback) {
+      return this.modelDef.count(conditions, function(err, count) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, count);
+      });
+    };
+
+    Repository.prototype.exists = function(conditions, callback) {
+      return this.modelDef.exists(conditions, function(err, exists) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, exists);
+      });
+    };
+
+    Repository.prototype.remove = function(primaryKey, callback) {
+      return this.modelDef.get(primaryKey, function(err, model) {
+        if (err) {
+          callback(err);
+        }
+        return model.remove(function(err) {
+          if (err) {
+            callback(err);
+          }
+          return callback(err, true);
+        });
+      });
+    };
+
+    Repository.prototype.update = function(primaryKey, conditions, callback) {
+      return this.modelDef.get(primaryKey, function(err, model) {
+        if (err) {
+          callback(err);
+        }
+        return model.save(conditions, function(err) {
+          if (err) {
+            callback(err);
+          }
+          return callback(err, true);
+        });
+      });
+    };
+
+    Repository.prototype.add = function(items, callback) {
+      return this.modelDef.create(items, function(err, items) {
+        if (err) {
+          callback(err);
+        }
+        return callback(err, items);
+      });
+    };
 
     return Repository;
 
   })();
+
+  module.exports = Repository;
 
 }).call(this);
 

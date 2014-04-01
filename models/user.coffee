@@ -10,6 +10,6 @@ userDef = {
   }
 }
 module.exports = (db, cb) ->
-  user = db.define(userDef.tableName, userDef.schema)
+  user = db.define(userDef.tableName, userDef.schema,)
   cb()
 
