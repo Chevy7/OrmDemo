@@ -1,10 +1,10 @@
 {
-  "version": 3,
-  "file": "config.js",
-  "sourceRoot": "",
-  "sources": [
-    "config.coffee"
-  ],
-  "names": [],
-  "mappings": ";AAAA;AAAA,EAAA,OAAO,CAAC,KAAR,GAAgB;AAAA,IACd,QAAA,EAAW,MADG;AAAA,IAEd,QAAA,EAAW,OAFG;AAAA,IAGd,IAAA,EAAM,iBAHQ;AAAA,IAId,IAAA,EAAW,IAJG;AAAA,IAKd,QAAA,EAAW,MALG;AAAA,IAMd,QAAA,EAAU,QANI;AAAA,IAOd,KAAA,EAAW;AAAA,MACX,IAAA,EAAS,IADE;AAAA,MAEX,KAAA,EAAQ,IAFG;KAPG;GAAhB,CAAA;AAAA"
+    "version": 3,
+    "file": "config.js",
+    "sourceRoot": "",
+    "sources": [
+        "config.coffee"
+    ],
+    "names": [],
+    "mappings": ";AAAA;AAAA,EAAA,OAAO,CAAC,KAAR,GAAgB;AAAA,IACd,QAAA,EAAW,MADG;AAAA,IAEd,QAAA,EAAW,OAFG;AAAA,IAGd,IAAA,EAAM,iBAHQ;AAAA,IAId,IAAA,EAAW,IAJG;AAAA,IAKd,QAAA,EAAW,MALG;AAAA,IAMd,QAAA,EAAU,QANI;AAAA,IAOd,KAAA,EAAW;AAAA,MACX,IAAA,EAAS,IADE;AAAA,MAEX,KAAA,EAAQ,IAFG;KAPG;GAAhB,CAAA;AAAA"
 }
