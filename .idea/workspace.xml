@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291f493d-c435-4c4e-9677-88fa6425957e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/ReadMe" />
+    <list default="true" id="291f493d-c435-4c4e-9677-88fa6425957e" name="Default" comment="Initial commit&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.coffee" afterPath="$PROJECT_DIR$/config.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.map" afterPath="$PROJECT_DIR$/config.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/domain.model/user.coffee" afterPath="$PROJECT_DIR$/domain/domain.model/user.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.coffee" afterPath="$PROJECT_DIR$/models/user.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.coffee" afterPath="$PROJECT_DIR$/routes/user.coffee" />
@@ -44,10 +42,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/user.coffee">
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/domain.model/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="258" selection-end="258" vertical-scroll-proportion="0.5729167" vertical-offset="0" max-vertical-offset="576">
+            <state line="17" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="770">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/user.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="550">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userRepo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/domain.repository/userRepo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
@@ -56,7 +72,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1408">
+            <state line="25" column="16" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -65,7 +81,7 @@
       <file leaf-file-name="config.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="6" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -74,8 +90,12 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="814">
-              <folding />
+            <state line="29" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="836">
+              <folding>
+                <marker date="1396330065946" expanded="true" signature="47:771" placeholder="{...}" />
+                <marker date="1396330065946" expanded="true" signature="209:440" placeholder="{...}" />
+                <marker date="1396330065946" expanded="true" signature="497:623" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +103,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+            <state line="5" column="8" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="286">
               <folding />
             </state>
           </provider>
@@ -92,16 +112,16 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="704">
+            <state line="13" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repository.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="repository.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repository.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="198">
+            <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.11262798" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
@@ -110,32 +130,9 @@
       <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
-              <folding>
-                <marker date="1396285634411" expanded="true" signature="87:256" placeholder="{&quot;database&quot;: &quot;test&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modelLoader.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/modelLoader.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="220">
+            <state line="10" column="12" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="528">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modelLoader.map" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/modelLoader.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -157,21 +154,21 @@
         <option value="$PROJECT_DIR$/repository.coffee" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/config.coffee" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/ReadMe" />
-        <option value="$PROJECT_DIR$/domain/domain.repository/userRepo.coffee" />
         <option value="$PROJECT_DIR$/domain/domain.model/user.coffee" />
-        <option value="$PROJECT_DIR$/routes/user.coffee" />
         <option value="$PROJECT_DIR$/models/user.coffee" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/user.coffee" />
+        <option value="$PROJECT_DIR$/domain/domain.repository/userRepo.coffee" />
+        <option value="$PROJECT_DIR$/config.coffee" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -199,34 +196,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OrmDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OrmDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="routes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,38 +270,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user.coffee" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -359,26 +296,32 @@
               <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrmDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="OrmDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain.model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="OrmDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user.coffee" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            <PATH_ELEMENT USER_OBJECT="routes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -430,7 +373,7 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="F:/Program Files/nodejs/node" working-dir="" coffeescript-path="C:\Users\Chevy\AppData\Roaming\npm\node_modules\coffee-script\bin\coffee" coffeescript-run="true">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="E:/Program Files/nodejs/node" working-dir="" coffeescript-path="D:\Users\dywang\AppData\Roaming\npm\node_modules\coffee-script\bin\coffee" coffeescript-run="true">
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
@@ -462,6 +405,11 @@
       <created>1396242922683</created>
       <updated>1396242922683</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1396327237238</created>
+      <updated>1396327237238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -485,26 +433,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16654275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16636528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263506" sideWeight="0.50030136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32563257" sideWeight="0.4996986" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -519,21 +468,45 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/user.coffee</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/user.coffee</url>
+          <line>14</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/models/modelLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.js">
@@ -543,9 +516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="9" column="1" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.coffee">
@@ -557,16 +528,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/domain.model/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/domain.repository/userRepo.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.coffee">
@@ -585,26 +552,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="220">
-          <folding />
-        </state>
+        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="220" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.js">
@@ -622,7 +583,11 @@
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <folding />
+          <folding>
+            <marker date="1396330065946" expanded="true" signature="47:771" placeholder="{...}" />
+            <marker date="1396330065946" expanded="true" signature="209:440" placeholder="{...}" />
+            <marker date="1396330065946" expanded="true" signature="497:623" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,11 +599,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="133" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="330" />
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="133" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.coffee">
@@ -657,26 +622,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="220">
-          <folding />
-        </state>
+        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="220" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.js">
@@ -686,9 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.coffee">
@@ -717,9 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="23" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="23" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.coffee">
@@ -733,28 +688,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="106" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="133" selection-end="137" vertical-scroll-proportion="-3.4736843" vertical-offset="0" max-vertical-offset="330" />
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="9" column="1" selection-start="133" selection-end="137" vertical-scroll-proportion="-3.4736843" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -765,25 +711,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="290" column="10" selection-start="6500" selection-end="6500" vertical-scroll-proportion="0.5351682" vertical-offset="6205" max-vertical-offset="7194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/orm/examples/anontxt/app/controllers/messages_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="131" selection-end="131" vertical-scroll-proportion="0.19097222" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.26-src/core-modules-sources/lib/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.33333334" vertical-offset="1013" max-vertical-offset="6226" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="704">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
@@ -798,25 +725,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <folding />
-        </state>
+        <state line="4" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/modelLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.30449826" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
-          <folding>
-            <marker date="1396285634411" expanded="true" signature="87:256" placeholder="{&quot;database&quot;: &quot;test&quot;...}" />
-          </folding>
-        </state>
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.30449826" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
@@ -826,51 +740,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.coffee">
+    <entry file="file://$PROJECT_DIR$/domain/domain.model/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="6" column="13" selection-start="97" selection-end="108" vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/domain.model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="814">
+        <state line="29" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <folding>
+            <marker date="1396330065946" expanded="true" signature="47:771" placeholder="{...}" />
+            <marker date="1396330065946" expanded="true" signature="209:440" placeholder="{...}" />
+            <marker date="1396330065946" expanded="true" signature="497:623" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/domain.repository/userRepo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/domain.repository/userRepo.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="53" selection-end="53" vertical-scroll-proportion="0.076124564" vertical-offset="0" max-vertical-offset="578">
+        <state line="5" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/domain.model/user.coffee">
+    <entry file="file://$PROJECT_DIR$/config.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.19031142" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1408">
+        <state line="6" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="248" selection-end="248" vertical-scroll-proportion="0.4186851" vertical-offset="0" max-vertical-offset="578">
+        <state line="3" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.coffee">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="258" selection-end="258" vertical-scroll-proportion="0.5729167" vertical-offset="0" max-vertical-offset="576">
+        <state line="25" column="16" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.11262798" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>

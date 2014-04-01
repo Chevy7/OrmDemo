@@ -13,12 +13,10 @@
         }
     };
 
-    module.exports = function (db, cb, next) {
-        return db.define(userDef.tableName, userDef.schema, next);
-    };
-
-    exports.create = function (user, cb) {
-        return user.add;
+    module.exports = function (db, cb) {
+        var user;
+        user = db.define(userDef.tableName, userDef.schema);
+        return cb();
     };
 
 }).call(this);

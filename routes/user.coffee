@@ -1,4 +1,4 @@
-user = require '../models/user'
+userRepo = require '../domain/domain.repository/userRepo'
 
 createUer = (req, res)->
   serviceReq = {
@@ -6,10 +6,14 @@ createUer = (req, res)->
     name: req.body.name,
     sex: req.body.sex
   }
-  createUerImp(serviceReq, createUerImpCallBack, res)
 
-createUerImp = (serviceReq, cb, res) ->
-  user.create(serviceReq ,(err ,serviceRes) ->cb(err,res,serviceRes))
+  model = req.model.user
+
+  createUerImp(serviceReq, model, res, createUerImpCallBack)
+
+createUerImp = (serviceReq, model, res, cb) ->
+  userRepo.create(serviceReq, model, (err, serviceRes) ->
+    cb(err, res, serviceRes))
 
 createUerImpCallBack = (err, res, serviceRes)->
   res.send(Json.stringify(serviceRes))
