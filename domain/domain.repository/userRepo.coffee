@@ -1,4 +1,4 @@
-Repository = require '.../repository'
+Repository = require '../../repository'
 
 class UserRepo extends Repository
   construct: super(@modelDef)

@@ -50,7 +50,16 @@ if ('development' == app.get('env')) {
 app.use(express.bodyParser());
 
 app.get('/', routes.index);
+// /api/users/create?id=1&name=dywang&sex=1
 app.get('/api/users/create', user.create);
+// /api/users/modify?id=1&name=dywangup&sex=1
+app.get('/api/users/modify', user.modify);
+// /api/users/modify?id=1
+app.get('/api/users/find', user.find);
+// /api/users/modify?sex=1
+app.get('/api/users/findAll', user.findAll);
+// /api/users/modify?sex=1&pageNo=1&pageSize=3
+app.get('/api/users/findByPaged', user.findByPaged);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

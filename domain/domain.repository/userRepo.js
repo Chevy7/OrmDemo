@@ -2,7 +2,7 @@
 (function() {
   var Repository;
 
-  Repository = require('.../repository');
+  Repository = require('../../repository');
 
   module.exports = UserRepo;
 

@@ -10,16 +10,31 @@
     };
 
     Repository.prototype.find = function(conditions, limit, order, callback) {
-      return this.modelDef.find(conditions, limit, order, function(err, models) {
-        if (err) {
-          callback(err);
-        }
-        return callback(err, models);
-      });
+      if (order == null) {
+        order = {};
+      }
+      if (limit) {
+        return this.modelDef.find(conditions, order, limit, function(err, models) {
+          if (err) {
+            callback(err);
+          }
+          return callback(err, models);
+        });
+      } else {
+        return this.modelDef.find(conditions, order, function(err, models) {
+          if (err) {
+            callback(err);
+          }
+          return callback(err, models);
+        });
+      }
     };
 
     Repository.prototype.findFirstOrDefault = function(conditions, order, callback) {
-      return this.modelDef.find(conditions, 1, order, function(err, model) {
+      if (order == null) {
+        order = {};
+      }
+      return this.modelDef.find(conditions, order, 1, function(err, model) {
         if (err) {
           callback(err);
         }
@@ -28,12 +43,29 @@
     };
 
     Repository.prototype.findByPaged = function(conditions, order, pageNo, pageSize, callback) {
-      return this.modelDef.find(conditions, order).offset((pageNo - 1) * pageSize).limit(pageSize).run(function(err, pagedModels) {
-        if (err) {
-          callback(err);
-        }
-        return callback(err, pagedModels);
-      });
+      if (order == null) {
+        order = {};
+      }
+      return this.modelDef.find(conditions, order).offset((pageNo - 1) * pageSize).limit(pageSize).run((function(_this) {
+        return function(err, models) {
+          if (err) {
+            callback(err);
+          }
+          return _this.modelDef.count(conditions, function(err, count) {
+            var pagedModel;
+            if (err) {
+              callback(err);
+            }
+            pagedModel = {
+              pageNo: pageNo,
+              pageSize: pageSize,
+              totalCount: count,
+              data: models
+            };
+            return callback(err, pagedModel);
+          });
+        };
+      })(this));
     };
 
     Repository.prototype.count = function(conditions, callback) {

@@ -1,0 +1,13 @@
+Condition参数例子：
+{ col1: 123, col2: "foo" } // `col1` = 123 AND `col2` = 'foo'
+{ col1: [ 1, 3, 5 ] } // `col1` IN (1, 3, 5)
+{ col1: orm.eq(123) } // `col1` = 123 (default)
+{ col1: orm.ne(123) } // `col1` <> 123
+{ col1: orm.gt(123) } // `col1` > 123
+{ col1: orm.gte(123) } // `col1` >= 123
+{ col1: orm.lt(123) } // `col1` < 123
+{ col1: orm.lte(123) } // `col1` <= 123
+{ col1: orm.between(123, 456) } // `col1` BETWEEN 123 AND 456
+{ col1: orm.not_between(123, 456) } // `col1` NOT BETWEEN 123 AND 456
+{ col1: orm.like(12 + "%") } // `col1` like '12%'
+
