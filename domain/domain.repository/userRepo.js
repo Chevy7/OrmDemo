@@ -4,7 +4,7 @@
 
   Repository = require('../../repository');
 
-  module.exports = UserRepo;
+  module.exports = Repository;
 
 }).call(this);
 

@@ -1,5 +1,5 @@
 class Repository
-  construct:
+  constructor:
     (modelDef) ->
       @modelDef = modelDef
 

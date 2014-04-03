@@ -3,11 +3,9 @@
   var Repository;
 
   Repository = (function() {
-    function Repository() {}
-
-    Repository.prototype.construct = function(modelDef) {
-      return this.modelDef = modelDef;
-    };
+    function Repository(modelDef) {
+      this.modelDef = modelDef;
+    }
 
     Repository.prototype.find = function(conditions, limit, order, callback) {
       if (order == null) {

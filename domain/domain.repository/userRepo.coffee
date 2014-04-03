@@ -1,6 +1,6 @@
 Repository = require '../../repository'
 
 class UserRepo extends Repository
-  construct: super(@modelDef)
+  constructor: super(@modelDef)
 
 module.exports = UserRepo
